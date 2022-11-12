@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tab Bar Interaction with Light/Dark Mode</title>
+    <!-- Google Font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google Material Icons CDN -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Link CSS File -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link JS File -->
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <button class="switch-mode-btn">
+      <span class="material-icons sun-icon" aria-hidden="true">
+        light_mode
+      </span>
+      <span class="material-icons moon-icon" aria-hidden="true">
+        dark_mode
+      </span>
+    </button>
+    <div class="wrapper">
+      <nav class="navbar">
+        <a href="#" class="link-item active">
+          <span class="material-icons link-icon" aria-hidden="true">
+            home
+          </span>
+          <span class="nav-link-name">Home</span>
+        </a>
+        <a href="#" class="link-item">
+          <span class="material-icons link-icon" aria-hidden="true">
+            person
+          </span>
+          <span class="nav-link-name">Profile</span>
+        </a>
+        <a href="#" class="link-item">
+          <span class="material-icons link-icon" aria-hidden="true">
+            notifications
+          </span>
+          <span class="nav-link-name">Notifications</span>
+        </a>
+        <a href="#" class="link-item">
+          <span class="material-icons link-icon" aria-hidden="true">
+            settings
+          </span>
+          <span class="nav-link-name">Settings</span>
+        </a>
+      </nav>
+    </div>
+  </body>
+</html>
